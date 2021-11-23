@@ -1,0 +1,3 @@
+target
+
+#This line excludes the target directory, which contains output from Maven, from the Docker build context. There are many good reasons to carefully structure a .dockerignore file, but this one-line file is good enough for now.
